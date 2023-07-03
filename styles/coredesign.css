@@ -1,0 +1,11 @@
+@import url(../styles/headerdesign.css);
+@import url(../styles/maindesign.css);
+@import url(../styles/footerdesign.css);
+/* Mobile */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+}
+
+/* Website */

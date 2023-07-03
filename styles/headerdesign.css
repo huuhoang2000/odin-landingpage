@@ -1,0 +1,115 @@
+
+  .downloadbtn {
+    /* display: none; */
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 10px 0 ;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+  }
+
+
+  .desktop-showing {
+    display: none
+}
+
+  .taketourbtn {
+    /* display: none; */
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 ;
+    color: white;
+    padding: 10px 0 ;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  .imgapp1 {
+    display: flex;
+    background-image: url(../resources/app.jpg);
+    background-size: contain;
+    aspect-ratio: 3/2;
+  }
+
+@media screen and (min-width: 1024px) {
+  .desktop-showing {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+      width: 100%;;
+  }
+
+  .btn-left {
+    border-radius: 12px;
+    background: rgba(88,84,85,255);
+    opacity: 0.8;
+    padding: 20px 20px;
+    margin-left: 20px;
+    width: 35%;
+  }
+
+  .btn-left > p {
+    width: 120px;
+    text-align: center;
+    color: white;
+  }
+
+  .desktop-showing > .btn-left > .p1 {
+    font-size: 25px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .desktop-showing > .btn-left > .p2 {
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .btn-left-download {
+    border-radius: 6px;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 10px 0 ;
+    font-weight: bold;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .btn-right {
+    border-radius: 5px;
+    width: 14%;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    font-size: 20px;;
+  }
+
+  .downloadbtn {
+    display: none;
+  }
+  
+  .taketourbtn {
+    display: none;
+  }
+}
